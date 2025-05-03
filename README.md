@@ -29,8 +29,8 @@ A **frontend-only** patient registration app using [PGlite](https://github.com/l
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/patient-registration-app.git
-cd patient-registration-app
+[git clone https://github.com/your-username/patient-registration-app.git
+cd patient-registration-app](https://github.com/pnitya2600/Patient-Registration-App.git)
 ```
 
 ### 2. Open the App
