@@ -1,0 +1,143 @@
+/* Global Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #121212;
+  color: #e5e5e5;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+/* Headings */
+h1, h2 {
+  text-align: center;
+  color: #a78bfa;
+  margin-bottom: 1rem;
+}
+
+/* Form & Card Containers */
+form, textarea, #query-input {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  margin-bottom: 24px;
+}
+
+/* Input Fields */
+input, textarea, select {
+  padding: 12px;
+  font-size: 1rem;
+  background-color: #2a2a2a;
+  border: 1px solid #444;
+  border-radius: 8px;
+  color: #fff;
+  transition: border 0.3s ease, background 0.3s ease;
+}
+
+input:focus, textarea:focus, select:focus {
+  border-color: #7c3aed;
+  outline: none;
+  background-color: #333;
+}
+
+/* Buttons */
+button {
+  padding: 12px;
+  font-size: 1rem;
+  background-color: #7c3aed;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #6d28d9;
+  transform: translateY(-1px);
+}
+
+/* Delete Button Style */
+.delete-row {
+  background-color: #ef4444;
+  color: white;
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.delete-row:hover {
+  background-color: #dc2626;
+}
+
+/* Error Message Styling */
+#form-errors {
+  background-color: #3b0d0c;
+  color: #fca5a5;
+  padding: 12px;
+  border-radius: 8px;
+  border-left: 4px solid #ef4444;
+  margin-bottom: 16px;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+th, td {
+  padding: 14px;
+  text-align: left;
+  border-bottom: 1px solid #333;
+  font-size: 0.95rem;
+}
+
+thead {
+  background-color: #7c3aed;
+  color: white;
+  font-weight: 600;
+}
+
+tr:nth-child(even) {
+  background-color: #2a2a2a;
+}
+
+/* Radio Buttons & Labels */
+label {
+  font-size: 0.95rem;
+  margin-right: 10px;
+}
+
+input[type="radio"] {
+  accent-color: #7c3aed;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  input, textarea, select, button {
+    font-size: 0.95rem;
+  }
+
+  th, td {
+    padding: 10px;
+    font-size: 0.85rem;
+  }
+}
