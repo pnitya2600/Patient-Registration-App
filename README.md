@@ -1,6 +1,6 @@
 # 🏥 Patient Registration App
 
-A **frontend-only** patient registration app using [PGlite](https://github.com/lvce-editor/pglite), designed to work entirely in the browser without any backend or server.
+A **frontend-only** patient registration app using [PGlite]([https://github.com/lvce-editor/pglite](https://pglite.dev/)), designed to work entirely in the browser without any backend or server.
 
 ---
 
@@ -18,7 +18,7 @@ A **frontend-only** patient registration app using [PGlite](https://github.com/l
 ## 🧪 Technologies Used
 
 - HTML, CSS, JavaScript
-- [PGlite](https://github.com/lvce-editor/pglite) – SQLite in the browser
+- [PGlite]([https://github.com/lvce-editor/pglite](https://pglite.dev/)) – SQLite in the browser
 - IndexedDB – for persistent storage
 - BroadcastChannel – for cross-tab communication
 
@@ -67,9 +67,6 @@ git commit -m "Add form validation and scroll-to-error feature"
 git commit -m "Improve dark theme styling and mobile responsiveness"
 git commit -m "Update README with setup, usage, and commit history"
 ```
-
-> ✅ **Tip**: Commit after each significant logical unit or feature. This makes your history readable and easy to debug.
-
 ---
 
 ## 📦 Project Structure
@@ -80,7 +77,6 @@ patient-registration-app/
 ├── style.css        # Styling (Dark theme)
 ├── main.js          # App logic (form, DB, validation, sync)
 ├── README.md        # Project overview and instructions
-└── .gitignore       # (Optional) Ignore system files or build output
 ```
 
 ---
@@ -88,7 +84,7 @@ patient-registration-app/
 ## ⚠️ Known Limitations
 
 - Only supported on modern browsers that support `IndexedDB` and `BroadcastChannel`.
-- SQL support is limited to what [PGlite](https://github.com/lvce-editor/pglite) provides.
+- SQL support is limited to what [PGlite]([https://github.com/lvce-editor/pglite](https://pglite.dev/)) provides.
 - No backend, so data is limited to the user's browser/device.
 
 ---
@@ -109,10 +105,9 @@ patient-registration-app/
 ![alt text](image-2.png)
 ![alt text](image-3.png)
 
-> To use this: capture a screenshot of the working app, name it `screenshot.png`, and place it in the root folder.
 
 ---
 
 ## 📝 License
 
-MIT – Free to use and modify.
+MIT
